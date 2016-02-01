@@ -1,0 +1,14 @@
+Advantages
+1. Seamless Integration accross C# and the mySQL database.
+2. C#'s object oriented capabilities leading to better data flow.
+3. C# is a high level language which inherently possesses an abstraction layer that would make the development more predictable in the testing process.
+4. Is a popular languace like C# has an abundance of available libraries that can be used to speed up the development of the software.
+5. C# had won as the "preferred language" on the debate within the group. Against other languages: Java and C.
+6. C# is popular enough to have a good community support. i.e. help of solving problems using Stack Overflow.
+7. A supposedly easy to learn language. For people coming from java background.
+
+Disadvantages
+1. C# is a proprietary language, therefore legalities in the use of the software is questionable. But we think that this will not yet be in the coverage of INTROSE.
+2. Implementing a maintainable code in C# would be a challenge as Microsoft does not really impose a coding convention for it. Although an official programming guide from Microsoft will suffice. For now.
+3. Once compiled, the software is platform specific. It will only work on Windows machines.
+4. Security is questionable. Because Microsoft products are notorious for secirity issues.
