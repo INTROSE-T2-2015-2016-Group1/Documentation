@@ -8,7 +8,6 @@ Advantages
 7. A supposedly easy to learn language. For people coming from java background.
 
 Disadvantages
-1. C# is a proprietary language, therefore legalities in the use of the software is questionable. But we think that this will not yet be in the coverage of INTROSE.
-2. Implementing a maintainable code in C# would be a challenge as Microsoft does not really impose a coding convention for it. Although an official programming guide from Microsoft will suffice. For now.
-3. Once compiled, the software is platform specific. It will only work on Windows machines.
-4. Security is questionable. Because Microsoft products are notorious for secirity issues.
+1. Implementing a maintainable code in C# would be a challenge as Microsoft does not really impose a coding convention for it. Although an official programming guide from Microsoft will suffice.
+2. Once compiled, the software is platform specific. It will only work on Windows machines.
+3. Security is questionable. Because Microsoft products are notorious for secirity issues.
