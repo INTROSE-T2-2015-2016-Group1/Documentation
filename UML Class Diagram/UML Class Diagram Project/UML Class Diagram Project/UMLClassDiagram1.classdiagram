@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="86fcc023-06f7-42c3-9c14-70d916dffc56" name="UMLClassDiagram1" linkedPackageId="e47f78cb-9b6f-4f13-bb65-05fc68e30db5" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="8a5122e9-a614-4933-bd4e-9a0724e15eb0">
-      <profileInstance Id="317405bc-b15f-40a5-9b14-025b6327379a" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="ff939643-76bc-4bd3-8c9c-6a442f0ae271">
-      <profileInstance Id="337689f0-d89d-4fd7-be25-241b70422989" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="a7239393-802f-4daf-b731-d7c651179a35" name="company" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -531,6 +517,34 @@
     <logicalClassDesignerModelHasTypes>
       <class Id="0c2e8e17-6294-496a-934f-24d94af8eb46" name="partsList" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="f8632405-9546-493d-a78c-cfea31c58f6b" />
+        <targetEnds>
+          <association Id="d9d6dd57-b595-4bc9-8a40-86f435128630" isDerived="false" sourceEndRoleName="" targetEndRoleName="" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e5fb77d7-f5bb-45d8-ab67-62803e1b0d76" LastKnownName="part" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="51b6b79b-849e-4eef-9645-16fa97ef50aa" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="15e02b0b-4c71-41b7-85af-26e79f90958a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3172744c-0d31-4656-a394-2aea4ff46ad7" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="6a5ddfd7-bb15-4f98-9ec0-0e478439b155" name="Lower" value="1">
+                      <elementDefinition Id="5a91c873-ad66-48d9-8efe-71373071f307" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="f4486efe-b301-483c-bf79-f7d5a474a6da" name="Upper" value="*">
+                      <elementDefinition Id="c275a087-a192-4242-a048-bb2629607bee" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="3ef3fcca-2931-4b91-ae91-9e37b59be838" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e1258e2d-f710-41d2-8e9b-676db84c44db" />
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property Id="7dcb0b3e-3421-484d-8c19-b4ce7ae5a5ef" name="quantity" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="a1ffe104-1170-4655-949e-1e868d89a502" />
@@ -809,5 +823,19 @@
   </packagedElements>
   <package Id="e47f78cb-9b6f-4f13-bb65-05fc68e30db5" name="UML Class Diagram Project">
     <elementDefinition Id="b9a0ed76-6e62-4276-95e3-be2731ce2a63" />
+    <profileInstances>
+      <packageHasProfileInstances Id="8a5122e9-a614-4933-bd4e-9a0724e15eb0">
+        <profileInstance Id="317405bc-b15f-40a5-9b14-025b6327379a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="ff939643-76bc-4bd3-8c9c-6a442f0ae271">
+        <profileInstance Id="337689f0-d89d-4fd7-be25-241b70422989" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </logicalClassDesignerModel>
