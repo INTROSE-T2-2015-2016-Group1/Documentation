@@ -578,6 +578,36 @@
               </operationHasOwnedParameters>
             </ownedParameters>
           </operation>
+          <operation Id="bcbe7efd-6fa3-46e8-8766-476b301d74cc" name="newPart" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="1aea0139-3018-4497-a879-1a2a23254b1e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c69b504c-7fe5-45f2-a3f9-f0541718453e" name="Company" direction="In" isUnique="false">
+                  <elementDefinition Id="18d4ac10-bee7-4283-8f67-0ef7076e0685" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="f08c2404-aa65-44e0-bac8-d3b8096eb643" name="editPart" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="61f94710-623c-415e-b2d7-b08d6f371017" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3cec87dc-ede7-40c3-9436-05f94d5cfe06" name="partNumber" direction="In" isUnique="false">
+                  <elementDefinition Id="ba9c51d6-46cd-4667-8e69-713942ef070f" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b1647139-b1db-40ae-b235-2d8b935c0277" name="deletePart" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="05d953cb-4b6c-4659-8bfd-9acf77f28649" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dec2ab7d-a835-4a11-9a76-5554aeff1511" name="partNumber" direction="In" isUnique="false">
+                  <elementDefinition Id="433380c5-2068-4f2f-a71d-7186ce7bd022" />
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
         </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
