@@ -115,6 +115,56 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
+          <association
+            Id="1bfd0b10-a521-4fac-934b-734b33a77369"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="dc3f485e-bd09-4f0f-9cd4-b846eb92356c"
+              LastKnownName="part"
+              LastKnownLocation="UML Class Diagram Project.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5ebd78e5-93b0-4c04-8e06-19ae70b77f49"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d04af2a8-af80-4569-9349-2d744fe434ab"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="459df503-dce8-423f-9a2b-5abf9cbaecbb"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="0e76e72c-7271-4b87-9467-a38f9fb5f483"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property
@@ -132,6 +182,24 @@
               <undefinedTypeMoniker
                 Id="f5ff7ed6-e187-43f0-99a5-36fa00986d95"
                 LastKnownName="List (customerTransaction)"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5b7f8716-9dfd-451f-a242-8469dbe80640"
+            name="partsInventory"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="f8e3c8b4-bc71-466e-8a27-7396653fba36"
+                LastKnownName="List (part)"
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
@@ -189,7 +257,20 @@
                   isDerived="false"
                   isDerivedUnion="false"
                   aggregation="None"
-                  isComposite="false" />
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="31a10f69-d65f-4bf6-a24c-c10314adc177"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="dc01cdb1-f629-4bef-8745-4db04fe20dbe"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
@@ -263,17 +344,6 @@
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
-          <property
-            Id="396e3cf0-629d-45b6-9c92-cdbd1b608a60"
-            name="supplierTransaction"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
-            isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false" />
           <property
             Id="b1c95424-0ec8-442d-b8cf-b6df9211bbd8"
             name="supplierTransactions"
@@ -362,7 +432,7 @@
             isAbstract="false">
             <classMoniker
               Id="f8632405-9546-493d-a78c-cfea31c58f6b"
-              LastKnownName="partsList"
+              LastKnownName="partsOrdered"
               LastKnownLocation="UML Class Diagram Project.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -425,6 +495,24 @@
               <undefinedTypeMoniker
                 Id="1cd4394b-b332-48b8-beca-6d61fbf0afb5"
                 LastKnownName="List (delivery)"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5879203a-7d4d-4ad5-a961-251a637444a0"
+            name="partsOrdered"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="f8632405-9546-493d-a78c-cfea31c58f6b"
+                LastKnownName="partsOrdered"
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
@@ -653,7 +741,7 @@
     <packageHasNamedElement>
       <class
         Id="f8632405-9546-493d-a78c-cfea31c58f6b"
-        name="partsList"
+        name="partsOrdered"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -696,7 +784,7 @@
             isAbstract="false">
             <classMoniker
               Id="f8632405-9546-493d-a78c-cfea31c58f6b"
-              LastKnownName="partsList"
+              LastKnownName="partsOrdered"
               LastKnownLocation="UML Class Diagram Project.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
