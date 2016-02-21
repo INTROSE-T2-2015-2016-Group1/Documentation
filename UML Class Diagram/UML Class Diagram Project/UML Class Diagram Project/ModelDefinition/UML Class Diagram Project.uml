@@ -25,6 +25,58 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="3b92457f-2b48-4424-87d2-c25c22bdd529"
+            isDerived="false"
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="dc3f485e-bd09-4f0f-9cd4-b846eb92356c"
+              LastKnownName="part"
+              LastKnownLocation="UML Class Diagram Project.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5949ceb7-27b9-43d4-87e6-5cfb38d9f1f5"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b204f8be-a7a5-4229-bd84-8659f18b9e98"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="37208851-4eb4-4fef-a476-d5904a61feb0"
+                      name="Lower"
+                      value="1" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="8c5fa325-d56c-4155-9147-3ef4073102e6"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="d5b43455-cd5c-441e-8d73-c5b1c53e04a0"
@@ -115,56 +167,6 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
-          <association
-            Id="1bfd0b10-a521-4fac-934b-734b33a77369"
-            isDerived="false"
-            sourceEndRoleName=""
-            targetEndRoleName=""
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="dc3f485e-bd09-4f0f-9cd4-b846eb92356c"
-              LastKnownName="part"
-              LastKnownLocation="UML Class Diagram Project.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="5ebd78e5-93b0-4c04-8e06-19ae70b77f49"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="Shared"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="d04af2a8-af80-4569-9349-2d744fe434ab"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="459df503-dce8-423f-9a2b-5abf9cbaecbb"
-                      name="Lower"
-                      value="1" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="0e76e72c-7271-4b87-9467-a38f9fb5f483"
-                      name="Upper"
-                      value="*" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
         </targetEnds>
         <ownedAttributesInternal>
           <property
@@ -204,6 +206,31 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="704bb217-dfec-4b9d-8b70-932158214ced"
+            name="viewAllCustomers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="16ab4783-fec9-440a-aa0f-677e3687a346"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="eb7e777c-f362-4559-b4c7-295332353545"
+                      LastKnownName="DataGridView"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -224,56 +251,6 @@
           </generalization>
         </generalsInternal>
         <targetEnds>
-          <association
-            Id="50a41909-aa45-48da-8f6e-88e55dc39fe6"
-            isDerived="false"
-            sourceEndRoleName=""
-            targetEndRoleName=""
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="dc3f485e-bd09-4f0f-9cd4-b846eb92356c"
-              LastKnownName="part"
-              LastKnownLocation="UML Class Diagram Project.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="981d2434-b44e-4b9f-834f-e964ae4a98ea"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="Shared"
-                  isComposite="false"
-                  isNavigableOwned="false" />
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="57e215b9-7f0c-4d6a-b440-3bde79a1f947"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="31a10f69-d65f-4bf6-a24c-c10314adc177"
-                      name="Lower"
-                      value="1" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="dc01cdb1-f629-4bef-8745-4db04fe20dbe"
-                      name="Upper"
-                      value="*" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
           <association
             Id="229f9afb-9b50-4d4c-9bbd-cfbad3a28fea"
             isDerived="false"
@@ -363,6 +340,31 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="638befb3-b0d5-4be5-a06a-c38bf32b1b70"
+            name="viewAllSuppliers"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7bcb65c7-edc3-4db3-8739-200ca7c853d5"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="eb7e777c-f362-4559-b4c7-295332353545"
+                      LastKnownName="DataGridView"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -432,7 +434,7 @@
             isAbstract="false">
             <classMoniker
               Id="f8632405-9546-493d-a78c-cfea31c58f6b"
-              LastKnownName="partsOrdered"
+              LastKnownName="partsList"
               LastKnownLocation="UML Class Diagram Project.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -512,7 +514,7 @@
             <type_NamedElement>
               <classMoniker
                 Id="f8632405-9546-493d-a78c-cfea31c58f6b"
-                LastKnownName="partsOrdered"
+                LastKnownName="partsList"
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
@@ -584,7 +586,142 @@
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="c9309d26-1a51-4e61-b665-8acbc3a03b94"
+            name="transaction"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="7a07d622-51e4-4130-aa60-4a55269057bb"
+                LastKnownName="transaction"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0b9f6023-ac92-4427-995c-57c11752ad1a"
+            name="viewAllCustomerPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aca86886-7ce1-4911-841d-e42dbc1bc419"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="eb7e777c-f362-4559-b4c7-295332353545"
+                      LastKnownName="DataGridView"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="acec7a7b-8927-4c8b-ad73-04d736b2286c"
+            name="newCustomerPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="19160ebf-0e49-44e0-b8f8-2b2fc6b4a586"
+                  name="transaction"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8461a51e-a2e9-4181-be8a-28287d4a9efa"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="b239ba00-55a0-41a8-b46a-98a45d5b1157"
+                      LastKnownName="void"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0bcf7347-04be-4cb3-abf3-6de36b8bcb88"
+            name="deleteCustomerPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="629f7f88-eb52-4bce-9581-16783ecb5468"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="b239ba00-55a0-41a8-b46a-98a45d5b1157"
+                      LastKnownName="void"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ae4a5ce5-ae69-4a30-ad84-ef3f8aeef8dd"
+                  name="transaction"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="88101132-ac66-47c0-a399-6b7432d23374"
+            name="editCustomerPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="64aaa51e-02d0-44b2-b321-7931fd5695fa"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="b239ba00-55a0-41a8-b46a-98a45d5b1157"
+                      LastKnownName="void"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8f813309-d071-47de-985e-49c3cc23b82a"
+                  name="transaction"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -652,7 +789,143 @@
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="1549f7dd-a3be-4361-b6bd-4345d4797b5e"
+            name="transaction"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="7a07d622-51e4-4130-aa60-4a55269057bb"
+                LastKnownName="transaction"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="f14309f3-664c-412a-86a2-b97952c0f538"
+            name="deleteSupplierPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a2bba4b2-56ad-44be-aeb0-2404d31a8e4b"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="b239ba00-55a0-41a8-b46a-98a45d5b1157"
+                      LastKnownName="void"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8679c6a2-c5cc-4f92-96f5-4f4974cca6d7"
+                  name="transaction"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3049b6cc-d8b6-4716-afc8-1b38ecb90740"
+            name="editSupplierPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="38920522-a2a5-4755-8b45-0380c6016f20"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="b239ba00-55a0-41a8-b46a-98a45d5b1157"
+                      LastKnownName="void"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="df01fbce-3e30-4d9e-9f78-4ee120b75c31"
+                  name="transaction"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="26bf1a74-0606-4fca-8092-01e412f2202b"
+            name="newSupplerPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="63cb1abd-29cc-4872-a816-51ea074ac707"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="b239ba00-55a0-41a8-b46a-98a45d5b1157"
+                      LastKnownName="void"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="84afc675-b3f5-4e2f-b7b2-33e1730aa195"
+                  name="transaction"
+                  direction="In"
+                  isUnique="false" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1bbea786-cf8e-4676-8334-7b7ec229a9ab"
+            name="viewAllSupplierPO"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a333d4e3-3a3c-40af-ab6b-42800cec3185"
+                  direction="Return"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="eb7e777c-f362-4559-b4c7-295332353545"
+                      LastKnownName="DataGridView"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -662,25 +935,46 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <ownedAttributesInternal>
-          <property
-            Id="30434116-9834-4631-a2c3-b3436a40bf2f"
-            name="date"
-            isLeaf="false"
-            isStatic="false"
-            isReadOnly="false"
-            isUnique="false"
+        <targetEnds>
+          <association
+            Id="b8f5ae9b-53b9-4c57-a189-abbe22a66753"
             isDerived="false"
-            isDerivedUnion="false"
-            aggregation="None"
-            isComposite="false">
-            <type_NamedElement>
-              <undefinedTypeMoniker
-                Id="f07a55c0-245e-4124-89c0-9bb6377babc7"
-                LastKnownName="Date"
-                LastKnownLocation="UML Class Diagram Project.uml" />
-            </type_NamedElement>
-          </property>
+            sourceEndRoleName=""
+            targetEndRoleName=""
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="f8632405-9546-493d-a78c-cfea31c58f6b"
+              LastKnownName="partsList"
+              LastKnownLocation="UML Class Diagram Project.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c3e7812f-0d77-485c-9e20-b7ff92ad6d98"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b9a6ff7a-d014-4703-9784-7012b26f037d"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
           <property
             Id="945539f5-2f0b-4948-a2bf-8286b907b0be"
             name="qaInspectionResult"
@@ -735,13 +1029,49 @@
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="654392d0-4eea-4b9e-8e0e-38f33dedb5dd"
+            name="partsDelivered"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="f8632405-9546-493d-a78c-cfea31c58f6b"
+                LastKnownName="partsList"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f59cbcc2-3557-4b9e-9820-85633f080680"
+            name="dateDelivered"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <undefinedTypeMoniker
+                Id="f07a55c0-245e-4124-89c0-9bb6377babc7"
+                LastKnownName="Date"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
         Id="f8632405-9546-493d-a78c-cfea31c58f6b"
-        name="partsOrdered"
+        name="partsList"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -764,6 +1094,24 @@
                 LastKnownLocation="UML Class Diagram Project.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="d5f9aed8-cb99-4e0f-a0a8-73d24cfee8ec"
+            name="part"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="dc3f485e-bd09-4f0f-9cd4-b846eb92356c"
+                LastKnownName="part"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
@@ -774,58 +1122,6 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
-        <targetEnds>
-          <association
-            Id="9b913305-f066-4cf4-94a3-2d610e25c2fa"
-            isDerived="false"
-            sourceEndRoleName=""
-            targetEndRoleName=""
-            isLeaf="false"
-            isAbstract="false">
-            <classMoniker
-              Id="f8632405-9546-493d-a78c-cfea31c58f6b"
-              LastKnownName="partsOrdered"
-              LastKnownLocation="UML Class Diagram Project.uml" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="bfd864e6-fc6a-4f08-a3a8-2fdecf2f377b"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false"
-                  isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString
-                      Id="b84d118c-1212-4370-8c78-5f3f7335f592"
-                      name="Lower"
-                      value="1" />
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString
-                      Id="de9ec0d3-a9f2-418e-83fe-c1956cac6adb"
-                      name="Upper"
-                      value="*" />
-                  </upperValueInternal>
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd
-                  Id="5139e745-00ad-4bb9-b411-401c05467bcf"
-                  isLeaf="false"
-                  isStatic="false"
-                  isReadOnly="false"
-                  isDerived="false"
-                  isDerivedUnion="false"
-                  aggregation="None"
-                  isComposite="false" />
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-          </association>
-        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="d1204f0e-63b9-4bea-9664-f452ecb16252"
@@ -864,6 +1160,31 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="43ed42f4-8c78-4516-9de2-245ea3721cca"
+            name="viewAllParts"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8e24b59c-ca87-41e9-acd8-a67edc4d33da"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="eb7e777c-f362-4559-b4c7-295332353545"
+                      LastKnownName="DataGridView"
+                      LastKnownLocation="UML Class Diagram Project.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -915,6 +1236,74 @@
       <undefinedType
         Id="1cd4394b-b332-48b8-beca-6d61fbf0afb5"
         name="List (delivery)" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="eb7e777c-f362-4559-b4c7-295332353545"
+        name="DataGridView" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="294eb8f0-2d26-400e-98ee-5ae60cdc9fe4"
+        name="invoice"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="f436772e-68a5-46ce-8497-6c5a4733c4c6"
+            isSubstitutable="false">
+            <classMoniker
+              Id="df246107-ef9e-4da5-b1d6-a689115daafa"
+              LastKnownName="delivery"
+              LastKnownLocation="UML Class Diagram Project.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="bd3df92f-5ab3-4fd4-886a-3511e9b5a868"
+            name="price"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="UML Class Diagram Project.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d0a75657-3655-4255-871f-75767c33afaf"
+        name="deliveryReceipt"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="2b72f142-768e-44e4-bc84-068f1af90855"
+            isSubstitutable="false">
+            <classMoniker
+              Id="df246107-ef9e-4da5-b1d6-a689115daafa"
+              LastKnownName="delivery"
+              LastKnownLocation="UML Class Diagram Project.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="b239ba00-55a0-41a8-b46a-98a45d5b1157"
+        name="void" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
